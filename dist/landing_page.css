@@ -40,6 +40,10 @@
     height: 70vh;
 }
 
+.Landing-page .Home-hero-bg {
+    background: url(./assets/images/homepage-hero.png) no-repeat;
+}
+
 .Landing-page .Home section {
     padding: 70px 0;
 }
