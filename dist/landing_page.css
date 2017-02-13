@@ -1,0 +1,210 @@
+.Header-logo-container .Header-logo {
+    background: url(./assets/images/logo-dark.png) no-repeat center bottom !important;
+    background-size: 100% !important;
+    display: inline-block !important;
+    height: 66px !important;
+    width: 188px !important;
+}
+
+.Landing-page .Home-hero-text-wrapper {
+    padding-top: 17vh !important;
+}
+
+.Landing-page .Home-hero {
+    text-align: center;
+    background-size: cover;
+}
+
+.Landing-page .Home-hero h1 {
+    font-size: 52px;
+    line-height: 60px;
+    margin-bottom: 20px;
+}
+
+.Landing-page .Home-hero h2 {
+    font-size: 24px;
+    margin-bottom: 50px;
+}
+
+.Button {
+    text-align: center;
+    cursor: pointer;
+}
+
+.Landing-page .Home-hero .Button {
+    padding: 14px 36px;
+    font-size: 1em;
+}
+
+.Landing-page .Home-hero, .Landing-page .Home-hero-bg {
+    height: 70vh;
+}
+
+.Landing-page .Home section {
+    padding: 70px 0;
+}
+
+.Landing-page .Home h5 {
+    margin: 15px 0 50px;
+}
+
+.Landing-page .Home h6 {
+    color: #8484D7;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 8px;
+    margin-top: 0;
+}
+
+.Landing-page .Home .Home-text-container {
+    max-width: 714px;
+    margin: 0 auto;
+}
+
+.Landing-page .Home .Home-text-container-large {
+    max-width: 946px;
+    margin: 0 auto;
+}
+
+.Landing-page .Home p {
+    font-size: 1.1em;
+    line-height: 1.4em;
+    font-weight: 100;
+}
+
+.Landing-page .Home .Home-what-is {
+    background-color: #f7f9fa;
+}
+
+.Landing-page .Home .Home-what-is p:first-of-type {
+    margin-bottom: 30px;
+}
+
+.Landing-page .Home .Home-mobile-stores {
+    background: #fff;
+    padding: 40px 0;
+    overflow: auto;
+}
+
+.Landing-page .Home .Home-mobile-stores h3 {
+    float: left;
+    margin-top: 3px;
+    text-align: left;
+}
+
+.Landing-page .Home .Home-mobile-stores img {
+    float: right;
+    margin-left: 25px;
+    width: 150px;
+}
+
+.Landing-page .Home .Home-characteristics {
+    background: #fff;
+}
+
+.Landing-page .Home .Home-characteristics p {
+    margin: 0 0 68px 0;
+}
+
+.Landing-page .Home .Home-characteristics img {
+    float: left;
+    width: 270px;
+}
+
+.Landing-page .Home .Home-characteristics-list {
+    overflow: hidden;
+    padding-left: 74px;
+    padding-top: 41px;
+}
+
+.Landing-page .Home .Home-second-call-to-action {
+    background: url(./assets/images/homepage-hero.png) no-repeat;
+    background-size: cover;
+    margin-bottom: 102px;
+}
+
+.Landing-page .Home .Home-second-call-to-action h3 {
+    color: #fff;
+    display: inline-block;
+    margin: 0;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.Landing-page .Home .Home-second-call-to-action .Button {
+    float: right;
+    margin-top: 5px;
+    display: inline-block;
+}
+
+@media (max-width: 1024px) {
+    .Header-logo {
+        margin-top: 8px !important;
+    }
+}
+
+@media (max-width: 940px) {
+    h5 {
+        padding: 0 15px;
+    }
+
+    .Header-logo-container .Header-logo {
+        margin-top: 28px !important;
+    }
+
+    .Landing-page .Home-hero h1, .Landing-page .Home-second-call-to-action h3 {
+        font-size: 34px !important  ;
+        line-height: 38px;
+    }
+
+    .Landing-page .Home-hero h2 {
+        font-size: 20px;
+        margin-bottom: 34px;
+    }
+
+    .Landing-page .Home .Home-text-container, .Landing-page .Home .Home-text-container-large {
+        width: 80%;
+    }
+
+    .Landing-page .Home .Home-mobile-stores {
+        text-align: center;
+    }
+
+    .Landing-page .Home .Home-mobile-stores h3 {
+        float: none;
+        margin-top: 0;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+
+    .Landing-page .Home .Home-mobile-stores img {
+        float: none;
+        margin-left: 0;
+        width: 150px;
+    }
+
+    .Landing-page .Home .Home-second-call-to-action {
+        text-align: center;
+    }
+    .Landing-page .Home .Home-second-call-to-action .Button {
+        margin-top: 20px;
+        float: none;
+    }
+
+    .Landing-page .Home .Home-characteristics-list {
+        padding-left: 0;
+    }
+
+    .Landing-page .Home .Home-characteristics p {
+        margin: 0 0 30px 0;
+    }
+    .Landing-page .Home .Home-characteristics img {
+        display: none;
+    }
+}
+
+@media (max-height: 700px) {
+    .Landing-page .Home-hero, .Landing-page .Home-hero-bg {
+        height: 80vh;
+    }
+}
