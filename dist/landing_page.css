@@ -124,7 +124,6 @@
 .Landing-page .Home .Home-second-call-to-action {
     background: url(./assets/images/homepage-hero.png) no-repeat;
     background-size: cover;
-    margin-bottom: 102px;
 }
 
 .Landing-page .Home .Home-second-call-to-action h3 {
@@ -139,6 +138,16 @@
     float: right;
     margin-top: 5px;
     display: inline-block;
+    padding: 12px 24px 12px;
+}
+
+.Header .Header-content .Header-logo-container {
+    margin-top: 20px;
+}
+
+.Footer {
+    top: 40px;
+    text-align: center;
 }
 
 @media (max-width: 1024px) {
@@ -190,10 +199,6 @@
     .Landing-page .Home .Home-second-call-to-action {
         text-align: center;
     }
-    .Landing-page .Home .Home-second-call-to-action .Button {
-        margin-top: 20px;
-        float: none;
-    }
 
     .Landing-page .Home .Home-characteristics-list {
         padding-left: 0;
@@ -205,10 +210,22 @@
     .Landing-page .Home .Home-characteristics img {
         display: none;
     }
+
+    .Header .Header-content .Header-logo-container {
+        float: none !important;
+    }
+}
+
+@media (max-width: 700px) {
+    .Landing-page .Home .Home-second-call-to-action .Button {
+        margin-top: 20px;
+        float: none;
+    }
 }
 
 @media (max-height: 700px) {
     .Landing-page .Home-hero, .Landing-page .Home-hero-bg {
         height: 80vh;
     }
+
 }
