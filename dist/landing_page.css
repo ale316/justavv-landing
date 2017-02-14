@@ -42,6 +42,7 @@
 
 .Landing-page .Home-hero-bg {
     background: url(./assets/images/homepage-hero.png) no-repeat;
+    background-size: cover;
 }
 
 .Landing-page .Home section {
