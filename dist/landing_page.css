@@ -215,6 +215,11 @@
     .Header .Header-content .Header-logo-container {
         float: none !important;
     }
+
+    .Home-hero-bg, .Home-second-call-to-action {
+        background: url(./assets/images/homepage-hero-mobile.png) no-repeat !important;
+        background-size: cover !important;
+    }
 }
 
 @media (max-width: 700px) {
