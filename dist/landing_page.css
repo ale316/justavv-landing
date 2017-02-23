@@ -26,6 +26,10 @@
     margin-bottom: 50px;
 }
 
+.Home-hero-text.contattaci {
+    color: white;
+}
+
 .Button {
     text-align: center;
     cursor: pointer;
